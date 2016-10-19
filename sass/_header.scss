@@ -1,0 +1,56 @@
+#header{
+	padding: 68px 0 0;
+	margin: 0 0 68px;
+}
+#logo{
+	strong{
+		font: 500 30px/1.01 'Inconsolata', monospace;
+		text-transform: uppercase;
+		float: left;
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+	}
+}
+#nav{
+	text-align: right;
+	margin: 4px 0 0;
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		display: inline-block;
+		margin: 0 -3px 0 60px;
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+	a{
+		text-transform: uppercase;
+		color: #626262;
+		text-decoration: none;
+		font: 14px/1.01 'Playfair Display', serif;
+		&:hover{
+			color: #000;
+		}
+	}
+}
+
+@media only screen and (max-width:768px){
+
+	#nav{
+		li{
+			margin-left: 30px;
+		}
+	}		
+
+}
+
+
+@media only screen and (max-width:620px){
+
+	
+	
+}
